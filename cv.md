@@ -19,8 +19,24 @@
 Proven history of successful work as QA engineer with cross-functional teams.
 
 Seeking a position as a trainee front-end developer, to leverage developer skills and to be irreplaceable part of your team.
-
 ***
+
+###  Code Example
+
+```
+function findShort(s) {
+  let res = s.split(' ');
+  let a = Infinity;
+  
+  for (let i = 0; i < res.length; i++) {
+    a = Math.min(res[i].length, a);
+  }
+  return a;
+}
+console.log(findShort("Hello my dear friend"));
+```
+***
+
 ### Skills
 * HTML5, CSS3
 * JavaScript (basics)
