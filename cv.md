@@ -38,3 +38,12 @@ Seeking a position as a trainee front-end developer, to leverage developer skill
 * **[Cursor. Education](https://cursor.education/uk/)** "HTML\CSS"
 
 ***
+
+### Languages
+
+|  Language     | Level         |
+| ------------- | ------------- |
+| English       |      B2 		|
+| Russian       | Native        |
+| Ukrainian     | Native        |
+***
