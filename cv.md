@@ -41,10 +41,9 @@ Seeking a position as a trainee front-end developer, to leverage developer skill
 
 ### Languages
 
-|  Language     | Level         |
-| ------------- | ------------- |
-| English       |      B2 		  |
-| Russian       | Native        |
-| Ukrainian     | Native        |
-
+Language      | Level        
+------------- | -------------
+English       | B2
+Ukrainian     | Native
+Russian       | Native
 ***
