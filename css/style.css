@@ -1,0 +1,32 @@
+:root {
+    --dark-blue: #1b1e2f;
+    --yellow: #fecb00;
+    --grey: #ebebeb;
+    --text-color-right: #2d2d2d;
+    --white: #ffffff;
+    --title: #232537;
+    --line: #393a4d;
+}
+    
+body .cv {
+    margin: 0;
+    font-family: Montserrat, Open-Sans,sans-serif ;
+    color: #2d2d2d;
+}
+header .header {
+    width: 100%;
+    display: flex;
+}
+.photo {
+    border-radius: 50%;
+    width: 100%;
+    border: 12px solid var(--yellow);
+}
+aside .left-block {
+    width: 40%;
+    background-color: var(--dark-blue);
+}
+div .right-block {
+    width: 60%;
+    background-color: var(--white);
+}
