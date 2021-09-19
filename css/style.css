@@ -1,5 +1,5 @@
 :root {
-    --dark-blue: #1b1e2f;
+    --dark-blue: hsl(231, 27%, 15%);
     --yellow: #fecb00;
     --grey: #ebebeb;
     --text-color-right: #2d2d2d;
@@ -8,25 +8,76 @@
     --line: #393a4d;
 }
     
-body .cv {
+.cv {
     margin: 0;
-    font-family: Montserrat, Open-Sans,sans-serif ;
-    color: #2d2d2d;
+    font-family: Montserrat;
 }
-header .header {
+.header {
     width: 100%;
     display: flex;
+}
+.header-photo {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    margin: 50px auto;
+    position: relative;
 }
 .photo {
     border-radius: 50%;
     width: 100%;
     border: 12px solid var(--yellow);
 }
-aside .left-block {
+.title {
+    border-left: 20px solid var(--yellow);
+}
+.subtitle {
+    font-size: 1.7em;
+    margin-inline-start: 30px; 
+    margin-inline-end: 10px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    color: var(--text-color-right);
+    background-color: var(--yellow);
+}
+
+.left-block {
     width: 40%;
+    color: var(--grey);
     background-color: var(--dark-blue);
 }
-div .right-block {
+.right-block {
+    display: flex;
     width: 60%;
-    background-color: var(--white);
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 0px 10px; */
+    background-color: var(--grey);
+}
+
+.education-block {
+    padding-bottom: 50px;
+}
+.left-block-title {
+    padding-bottom: 15px;
+    border-left: 15px solid var(--yellow);
+    border-bottom: 10px solid var(--grey);
+}
+.border {
+    margin-left: 10px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contacts-item-img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.language-item {
+
 }
