@@ -7,6 +7,9 @@
     <title>Voronova CV</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" type="image/ico" sizes="32x32" href="images/icons/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
 </head>
 <body class="cv">
@@ -30,8 +33,7 @@
         </header>
         <main class="main-block">
             <aside class="left-block">
-                <!-- /<div class="education-block"> -->
-                <!-- </div> -->
+                <div class="education-block">
                   <h2 class="left-block-title">
                     <a class="border"></a>
                     Education
@@ -54,6 +56,8 @@
                         National Pedagogical Dragomanov University (Bachelor)
                     </li>
                     </ul>
+                </div>
+                <div class="language-block">
                 <h2 class="left-block-title">  
                     <a class="border"></a>
                     Languages
@@ -70,6 +74,7 @@
                             Russian <span class="lng-level">Native</span>
                         </li>
                      </ul>
+                </div>
                 <h2 class="left-block-title">
                     <a class="border"></a>
                     Contacts
@@ -150,17 +155,40 @@
                             Code example
                         </a>
                 </h2>
-                <section class="code-example-content"></section>
-               </div>
+                <section class="code-example">
+                    <pre><code class="code-example-content">
+function findShort(s) {
+    let res = s.split(' ');
+    let a = Infinity;
 
-                
+for (let i = 0; i 
+    < res.length; i++) {
+    a = Math.min
+    (res[i].length, a);
+    }
+    return a;
+    }
+console.log(findShort
+("Hello my dear friend"));
+                    </code></pre>   
+                </section>
+               </div>
             </div>
         </main>
         <footer class="footer">
-
+            <div class="footer-content">
+                <a href="https://github.com/alisa-v" title="Github">
+                    <img src="images/icons/github32.png" alt="Github">
+            </div>
+            <div class="footer-content">
+                <a>2021</a>
+            </div>
+            <div class="footer-content">
+                <a href="https://rs.school/js/" title="Rsschool">
+                <img class="rss-icon" src="images/icons/rsschool.png">
+                </a>
+            </div>
         </footer>
-    
     </div>
-    
 </body>
 </html>
